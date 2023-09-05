@@ -39,8 +39,8 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
+        <h2 className={styles.sectionHeadText}>Overview.</h2>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>About Me</h2>
       </motion.div>
 
       <motion.p
@@ -48,10 +48,10 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         I'm a passionate software developer with experience in JavaScript and
-        Ruby, and expertise in frameworks like React, Node.js, and
-        Rails. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Ruby, and expertise in frameworks like React, Node.js, and Rails. I'm a
+        quick learner and collaborated closely with teammates to create an
+        efficient, scalable, and user-friendly web application. Let's chat about
+        how I can contribute to your organization's success!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
