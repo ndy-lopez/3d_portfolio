@@ -19,6 +19,7 @@ import {
   maisonneuve,
   videotron,
   rogers,
+  freelance,
   carrent,
   jobit,
   tripguide,
@@ -123,8 +124,8 @@ const experiences = [
     date: "Apr 2023 - Jun 2023",
     points: [
       "Learned software fundamentals, databases, front-end development, and web design through Figma, including key frameworks like Ruby on Rails and StimulusJS.",
-      "Gained experience in deploying complete web applications and adopting best-in-class development workflows, including collaboration on GitHub and automated testing",
-      "Built an app designed to help individuals make an educated and responsible decisions when it comes to relocating or finding a new place to stay, with Ruby on Rails, while collaborating in a team."
+      "Gained experience in deploying complete web applications and adopting best-in-class development workflows, including collaboration on GitHub and automated testing.",
+      "Built an app designed to help individuals make an educated and responsible decisions when it comes to relocating or finding a new place to stay, with Ruby on Rails, while collaborating in a team.",
     ],
   },
   {
@@ -140,15 +141,27 @@ const experiences = [
     ],
   },
   {
+    title: "Freelancer",
+    info: "Web Development (In Progress)",
+    icon: freelance,
+    iconBg: "#29e788",
+    date: "Jun 2023 - present",
+    points: [
+      "Developing a responsive landing page for a pressure washing business using React, demonstrating proficiency in front-end web development and design to my first client.",
+      "Crafting a dynamic portfolio website using a variety of technologies, including React, CanvasLoader, Drei, and Vertical Timeline.",
+      "Highlighting a commitment to learning and adapting to new technologies and tools by incorporating cutting-edge technologies like Three.js and Framer Motion into my portfolio.",
+    ],
+  },
+  {
     title: "Tech Specialist Consultant",
-    info: "Vidéotron",
+    info: "Vidéotron (Part-Time)",
     icon: videotron,
     iconBg: "#ffd200",
     date: "Jan 2020 - present",
     points: [
       "Efficiently manage incoming calls, diagnosing customer technical problems and proposing appropriate solutions.",
       "Demonstrate active listening to understand customer needs and to provide appropriate recommendations.",
-      "Promote various products and services, resulting in increased customer satisfaction and revenue growth."
+      "Promote various products and services, resulting in increased customer satisfaction and revenue growth.",
     ],
   },
   {
@@ -160,7 +173,7 @@ const experiences = [
     points: [
       "Successfully proposed solutions and negotiated payment terms, resulting in improved customer relationships and reduced late payments.",
       "Offered sustainable solutions to improve the customer experience and strengthen loyalty.",
-      "Played an advisory role with customers, guiding them through the products and services available to effectively meet their needs."
+      "Played an advisory role with customers, guiding them through the products and services available to effectively meet their needs.",
     ],
   },
 ];
