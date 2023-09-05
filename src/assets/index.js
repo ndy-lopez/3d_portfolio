@@ -25,6 +25,7 @@ import lewagon from "./company/lewagon.png";
 import maisonneuve from "./company/maisonneuve.jpg";
 import videotron from "./company/videotron.jpg";
 import rogers from "./company/rogers.png";
+import freelance from "./company/freelance.png";
 
 
 
@@ -58,6 +59,7 @@ export {
   jobit,
   tripguide,
   lewagon,
+  freelance,
   maisonneuve,
   videotron,
   rogers
