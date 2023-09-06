@@ -4,17 +4,16 @@ import {
   react,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
   redux,
   tailwind,
   nodejs,
-  mongodb,
+  ruby,
   git,
   figma,
-  docker,
+  postsql,
   lewagon,
   maisonneuve,
   videotron,
@@ -23,7 +22,6 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -73,10 +71,7 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+
   {
     name: "React JS",
     icon: reactjs,
@@ -90,16 +85,16 @@ const technologies = [
     icon: tailwind,
   },
   {
+    name: "Ruby on Rails",
+    icon: ruby,
+  },
+  {
+    name: "PostgreSQL",
+    icon: postsql,
+  },
+  {
     name: "Node JS",
     icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
   },
   {
     name: "git",
@@ -108,11 +103,7 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  }
 ];
 
 const experiences = [
