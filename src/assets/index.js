@@ -18,8 +18,8 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import postsql from "./tech/postsql.png";
+import ruby from "./tech/ruby.png";
 
 import lewagon from "./company/lewagon.png";
 import maisonneuve from "./company/maisonneuve.jpg";
@@ -53,8 +53,8 @@ export {
   reactjs,
   redux,
   tailwind,
-  typescript,
-  threejs,
+  postsql,
+  ruby,
   carrent,
   jobit,
   tripguide,
