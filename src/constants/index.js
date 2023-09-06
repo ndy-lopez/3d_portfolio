@@ -19,9 +19,9 @@ import {
   videotron,
   rogers,
   freelance,
-  carrent,
-  jobit,
-  tripguide,
+  codex,
+  mapt,
+  landingpage
 } from "../assets";
 
 export const navLinks = [
@@ -198,67 +198,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Mapping Web Application",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "mApt, a platform which allows users to make educated and responsible choices when finding a new place to stay by comparing distances and commute times, enabling them to evaluate how a potential location aligns with their lifestyle preferences.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
+        name: "rubyonrails",
         color: "pink-text-gradient",
       },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
+        name: "postgresql",
         color: "green-text-gradient",
       },
       {
         name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
         color: "blue-text-gradient",
       },
+    ],
+    image: mapt,
+    source_code_link: "https://github.com/ndy-lopez/mApt",
+  },
+  {
+    name: "ChatGPT Clone",
+    description:
+      "OpenAI provides an API for developers to access ChatGPT's capabilities which was integrated into this app.",
+    tags: [
       {
-        name: "supabase",
+        name: "vite",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "openai_API",
+        color: "orange-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: codex,
+    source_code_link: "https://github.com/ndy-lopez/node_OpenAI_Codex",
+  },
+  {
+    name: "Business Landing Page",
+    description:
+      "This project is intended for my first freelance client, it involves creating an online platform that reflects the company's dedication to maintaining clean and safe kitchen environments in restaurants, as well as showcasing their prices and services available.",
+    tags: [
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bootstrapcss",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: landingpage,
+    source_code_link: "https://github.com/ndy-lopez/nvp-landing-page",
   },
 ];
 
