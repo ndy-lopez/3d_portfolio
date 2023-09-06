@@ -28,10 +28,9 @@ import rogers from "./company/rogers.png";
 import freelance from "./company/freelance.png";
 
 
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import mapt from './mapt.jpg'
+import codex from './codex.jpg'
+import landingpage from './landingpage.jpg'
 
 export {
   logo,
@@ -55,12 +54,12 @@ export {
   tailwind,
   postsql,
   ruby,
-  carrent,
-  jobit,
-  tripguide,
   lewagon,
   freelance,
   maisonneuve,
   videotron,
-  rogers
+  rogers,
+  mapt,
+  landingpage,
+  codex
 };
