@@ -133,7 +133,7 @@ const experiences = [
   },
   {
     title: "Freelancer",
-    info: "Web Development (In Progress)",
+    info: "Web Development",
     icon: freelance,
     iconBg: "#29e788",
     date: "Jun 2023 - present",
@@ -200,7 +200,7 @@ const projects = [
   {
     name: "Mapping Web Application",
     description:
-      "mApt, a platform which allows users to make educated and responsible choices when finding a new place to stay by comparing distances and commute times, enabling them to evaluate how a potential location aligns with their lifestyle preferences.",
+      "Discover mApt, a platform designed to empower users in making informed decisions when searching for a new place to live. With the use of a map and pinpoints, users can easily compare distances and commute times to their, helping them assess how a prospective location fits their lifestyle preferences. Explore how this innovative tool streamlines the search for the perfect place to call home.",
     tags: [
       {
         name: "rubyonrails",
@@ -221,7 +221,7 @@ const projects = [
   {
     name: "ChatGPT Clone",
     description:
-      "OpenAI provides an API for developers to access ChatGPT's capabilities which was integrated into this app.",
+      "This project showcases my implementation of a ChatGPT clone, powered by OpenAI's API. With this application, I've harnessed ChatGPT's capabilities to create an interactive chatbot experience. Explore how I integrated OpenAI's technology into this app.",
     tags: [
       {
         name: "vite",
@@ -242,7 +242,7 @@ const projects = [
   {
     name: "Business Landing Page",
     description:
-      "This project is intended for my first freelance client, it involves creating an online platform that reflects the company's dedication to maintaining clean and safe kitchen environments in restaurants, as well as showcasing their prices and services available.",
+      "This project represents my work for my first freelance client. It involves the creation of an online platform designed to highlight the client's commitment to maintaining clean and safe kitchen environments in restaurants. The platform also serves as a showcase for the client's pricing structure and the range of services they offer. Explore this project to see how I brought their vision to life.",
     tags: [
       {
         name: "react",
