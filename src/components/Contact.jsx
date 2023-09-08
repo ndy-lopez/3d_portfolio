@@ -5,6 +5,8 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 const Contact = () => {
   const formRef = useRef();
@@ -73,11 +75,14 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
-
+        <div className="flex justify-start gap-5">
+          <a href="https://www.linkedin.com/in/andy-lpz/" target="_blank" rel="noopener noreferrer"><LinkedInIcon /></a>
+          <a href="https://www.github.com/ndy-lopez" target="_blank" rel="noopener noreferrer"><GitHubIcon /></a>
+        </div>
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className="mt-12 flex flex-col gap-8"
+          className="mt-8 flex flex-col gap-8"
         >
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Name</span>
