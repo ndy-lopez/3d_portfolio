@@ -23,9 +23,9 @@ import ruby from "./tech/ruby.png";
 
 import lewagon from "./company/lewagon.png";
 import maisonneuve from "./company/maisonneuve.jpg";
-import videotron from "./company/videotron.jpg";
 import rogers from "./company/rogers.png";
 import freelance from "./company/freelance.png";
+import photography from "./company/photography.png";
 
 
 import mapt from './mapt.jpg'
@@ -56,8 +56,8 @@ export {
   ruby,
   lewagon,
   freelance,
+  photography,
   maisonneuve,
-  videotron,
   rogers,
   mapt,
   landingpage,
