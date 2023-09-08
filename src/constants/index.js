@@ -132,8 +132,8 @@ const experiences = [
     ],
   },
   {
-    title: "Freelance",
-    info: "Web Development",
+    title: "Web Development",
+    info: "Freelance",
     icon: freelance,
     iconBg: "#29e788",
     date: "June 2023 - present",
